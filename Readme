@@ -1,0 +1,5 @@
+To start going with FastAPIs we should follow the following steps
+1. Create Virtual Environment (python -m venv environment-name)
+2. activate the created environment (environment-name/Scripts/activate)
+3. Install required libraries (pip install library-name1 library-name2 library-name3 etc)
+4. Start and run the server (uvicorn main:app -- reload)
