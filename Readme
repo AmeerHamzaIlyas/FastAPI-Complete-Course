@@ -3,3 +3,27 @@ To start going with FastAPIs we should follow the following steps
 2. activate the created environment (environment-name/Scripts/activate)
 3. Install required libraries (pip install library-name1 library-name2 library-name3 etc)
 4. Start and run the server (uvicorn main:app -- reload)
+
+we can use Path to enhance our readability
+first import --> (from fastapi import Path)
+use it like (def patient_view(patient_id: str = Path (..., description="ID of the Patient",example="p1")):
+
+
+                    Https requests response codes with description
+1. 2xx --> means Success
+2. 3xx --> means redirection (further actions required)
+3. 4xx --> means client side error
+4. 5xx --> means server side error
+
+200 (ok)          --> for get and post requests
+201 (created)     --> for put request (something updated)
+204 (not content) --> for delete request
+
+400 (bad request)  --> something missing in fields
+401 (unauthorized) --> login required
+403 (forbidden)    --> logged in but access not permitted
+404 (not found)    --> not exist
+
+500 (internal server error) --> something broke in server 
+502 (bad gateway)
+503 (service unavailable)
