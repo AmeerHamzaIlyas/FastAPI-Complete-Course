@@ -1,7 +1,7 @@
 {"p1":{"name":"Arslan","admitted_data":"12-Sep-26","diesease":"astma","days_from":10},
-"p2":{"name":"Arslan","admitted_data":"12-Sep-26","diesease":"astma","days_from":10},
-"p3":{"name":"Arslan","admitted_data":"12-Sep-26","diesease":"astma","days_from":10},
-"p4":{"name":"Arslan","admitted_data":"12-Sep-26","diesease":"astma","days_from":10},
-"p5":{"name":"Arslan","admitted_data":"12-Sep-26","diesease":"astma","days_from":10},
-"p6":{"name":"Arslan","admitted_data":"12-Sep-26","diesease":"astma","days_from":10},
-"p7":{"name":"Arslan","admitted_data":"12-Sep-26","diesease":"astma","days_from":10}}
+"p2":{"name":"zohair","admitted_data":"16-Sep-26","diesease":"fever","days_from":12},
+"p3":{"name":"cheema","admitted_data":"17-Sep-26","diesease":"headache","days_from":16},
+"p4":{"name":"dunya","admitted_data":"25-Sep-26","diesease":"depression","days_from":18},
+"p5":{"name":"mubashir","admitted_data":"10-Sep-26","diesease":"anxity","days_from":19},
+"p6":{"name":"zain","admitted_data":"19-Sep-26","diesease":"leg-fracture","days_from":20},
+"p7":{"name":"ismael","admitted_data":"14-Sep-26","diesease":"zam-zam","days_from":12}}
